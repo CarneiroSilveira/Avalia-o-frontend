@@ -1,10 +1,23 @@
+import { Link } from 'react-router-dom'
 import './styles.css'
 
 export default function Header() {
     return (
-        <div className='home-page'>
-            <h2>Venha você também descobrir o universo do Rick and Morty</h2>
-            <span>Para continuar, favor inserir o número do seu cartão de crédito</span>
-        </div>
+        <header className='cabecalho'>
+            <h1>Universo Rick and Morty</h1>
+            <nav>
+                <ol>
+                    <Link to="/">
+                        <li>Home</li>
+                    </Link>
+                    <Link to="/about">
+                        <li>Sobre</li>
+                    </Link>
+                    <Link to="/rick-and-morty">
+                        <li>Personagens</li>
+                    </Link>
+                </ol>
+            </nav>
+        </header>
     )
 }
