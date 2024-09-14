@@ -1,9 +1,10 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Home } from './pages/Home'
-import { Header } from './components/Header'
-import { Footer } from './components/Footer'
-import { About } from './pages/About'
+import Home from './pages/Home/index'
+import Header from './components/Header/index'
+import Footer from './components/Footer/index'
+import About from './pages/About/index'
+import Api from './pages/Api/index'
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
       <Routes>
          <Route path='/' element={<Home/>} />
          <Route path='/about' element={ <About/> } />
-        {/* <Route path='/' element={} /> */}
+         <Route path='/api' element={<Api/>} />
       </Routes>
       <Footer />
     </>

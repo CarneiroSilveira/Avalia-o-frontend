@@ -3,8 +3,8 @@ import './styles.css'
 export default function Home() {
     return (
         <div className='home-page'>
-            <h2>Venha você também descobrir o universo do Rick and Morty</h2>
-            <span>Para continuar, favor inserir o número do seu cartão de crédito</span>
+            <h2>Welcome to the Dubious Advice website</h2>
+            <p>A website that offers you the most cursed images with the most dubious texts as a service.</p>
         </div>
     )
 }

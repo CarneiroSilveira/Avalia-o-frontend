@@ -1,0 +1,28 @@
+.header {
+    background-color: #f0e113;
+    color: black;
+    padding: 8px;
+    text-align: center;
+}
+
+.header ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header ol a {
+    width: 99%;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: 8px;
+    border-color: #f0e113;
+}
+
+.header ol a:hover {
+    background-color: #ffbb009d;
+}

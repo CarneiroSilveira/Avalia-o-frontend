@@ -1,10 +1,12 @@
+import Button from '../../components/Button'
 import './styles.css'
 
 export default function About() {
     return (
-        <div className='home-page'>
-            <h2>Venha você também descobrir o universo do Rick and Morty</h2>
-            <span>Para continuar, favor inserir o número do seu cartão de crédito</span>
+        <div className='About'>
+            <h1>Congratulations, you are our 1000000th user!🥳🥳🥳</h1>
+            <p>User and to celebrate this new milestone you will receive a trip to Acapulco with everything paid, just click the button below and enter your credit card number</p>
+            <Button/>
         </div>
     )
 }
