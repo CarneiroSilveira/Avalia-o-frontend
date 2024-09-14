@@ -5,6 +5,7 @@ import Header from './components/Header/index'
 import Footer from './components/Footer/index'
 import About from './pages/About/index'
 import Api from './pages/Api/index'
+import Error from './components/Error'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
          <Route path='/' element={<Home/>} />
          <Route path='/about' element={ <About/> } />
          <Route path='/api' element={<Api/>} />
+         <Route path='/error' element={<Error/>} />
       </Routes>
       <Footer />
     </>
