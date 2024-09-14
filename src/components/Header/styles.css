@@ -1,8 +1,21 @@
 .header {
-    background-color: #f0e113;
-    color: black;
+    background-color: #8c1097;
     padding: 8px;
     text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.header img{
+    height: 110px;
+    width: 400px;
+    object-fit: cover;
+    margin-bottom: 17px;
+    transition: 0.2s;
+}
+
+.header img:hover{
+    height: 160px;
+    width: 450px;
 }
 
 .header ol {
@@ -14,15 +27,20 @@
 }
 
 .header ol a {
-    width: 99%;
+    font-size: 25px;
+    width: 500px;
     padding: 10px;
-    color: black;
+    color: rgb(255, 251, 0);
+    font-weight: bold;
     text-decoration: none;
-    background-color: white;
+    border-radius: 50px;
+    background-color: none;
     border: 8px;
-    border-color: #f0e113;
+    border-color: rgb(252, 255, 82);
+    transition: 0.2s;
 }
 
 .header ol a:hover {
-    background-color: #ffbb009d;
+    background-color: #ffe6009d;
+    color: black;
 }

@@ -4,7 +4,9 @@ import './styles.css'
 export default function Header() {
     return (
         <header className='header'>
-            <h1>dubious advice</h1>
+            <Link to="/">
+            <img src="src\assets\Dubious Advice.png" alt="Dubious Advice" />
+            </Link>
             <nav>
                 <ol>
                     <Link to="/">
