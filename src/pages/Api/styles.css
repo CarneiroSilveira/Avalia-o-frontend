@@ -1,0 +1,42 @@
+.api-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.api-menssge {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.meme-image {
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .api-menssge {
+        font-size: 1.2rem;
+    }
+
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+}
